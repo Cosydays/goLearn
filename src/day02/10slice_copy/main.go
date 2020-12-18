@@ -21,7 +21,14 @@ func main()  {
 	x1 := [...]int{1, 3, 5} //数组
 	s1 := x1[:] //切片
 	fmt.Println(s1, len(s1), cap(s1))
-	s1 = append(s1[:1], s1[2:]...)
+	//1.切片不保存具体的值
+	//2.切片对应一个底层数组
+	//3.底层数组都是占用一块连续的内存
+	fmt.Printf("%p\n", &s1[0])
+	s1 = append(s1[:1], s1[2:]...) //修改了底层数组
+	fmt.Printf("%p\n", &s1[0])
 	fmt.Println(s1, len(s1), cap(s1))
-	fmt.Println(x1)
+	//修改底层数组
+	s1[0] = 100
+	fmt.Println(x1) // 1 5 5
 }
