@@ -4,7 +4,7 @@ import "fmt"
 
 //copy
 
-func main()  {
+func main() {
 	a1 := []int{1, 3, 5}
 	a2 := a1 //赋值
 	var a3 = make([]int, 3, 3)
@@ -19,7 +19,7 @@ func main()  {
 	fmt.Println(cap(a1))
 
 	x1 := [...]int{1, 3, 5} //数组
-	s1 := x1[:] //切片
+	s1 := x1[:]             //切片
 	fmt.Println(s1, len(s1), cap(s1))
 	//1.切片不保存具体的值
 	//2.切片对应一个底层数组

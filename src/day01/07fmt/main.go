@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 //fmt占位符
-func main()  {
+func main() {
 	var n = 100
 	//查看类型
 	fmt.Printf("%T\n", n)

@@ -6,7 +6,7 @@ import "fmt"
 
 func main() {
 	var m1 map[string]int
-	fmt.Println(m1 == nil) //还没有初始化（没有在内存中开辟空间）
+	fmt.Println(m1 == nil)        //还没有初始化（没有在内存中开辟空间）
 	m1 = make(map[string]int, 10) //要估算好该map容量，避免在程序运行期间再动态扩容
 	m1["caijiahui"] = 18
 	m1["jiahui"] = 24
@@ -21,7 +21,7 @@ func main() {
 	}
 
 	//map的遍历
-	for k, v := range m1{
+	for k, v := range m1 {
 		fmt.Println(k, v)
 	}
 

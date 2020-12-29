@@ -4,7 +4,7 @@ import "fmt"
 
 //fmt
 
-func main()  {
+func main() {
 	fmt.Print("shahe")
 	fmt.Print("nazha")
 	fmt.Println("------")
@@ -25,7 +25,7 @@ func main()  {
 
 	var m1 = make(map[string]int, 1)
 	m1["lixiang"] = 100
-	fmt.Printf("%v\n", m1) //map[lixiang:100]
+	fmt.Printf("%v\n", m1)  //map[lixiang:100]
 	fmt.Printf("%#v\n", m1) //map[string]int{"lixiang":100}
 
 	//打印百分号
@@ -46,8 +46,8 @@ func main()  {
 	fmt.Println("用户输入的内容是：", s)
 
 	var (
-		name string
-		age int
+		name  string
+		age   int
 		class string
 	)
 	fmt.Scanf("%s %d %s\n", &name, &age, &class)

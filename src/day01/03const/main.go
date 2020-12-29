@@ -22,24 +22,24 @@ const (
 //iota：类似枚举
 const (
 	a1 = iota //0
-	a2  //1
-	a3  //2
+	a2        //1
+	a3        //2
 
 )
 
 const (
 	b1 = iota //0
-	b2 //1
-	_ //2 匿名变量，将值丢弃
-	b3 //3
+	b2        //1
+	_         //2 匿名变量，将值丢弃
+	b3        //3
 )
 
 //插队
 const (
-	c1= iota //0
-	c2 = 100 //1
+	c1 = iota //0
+	c2 = 100  //1
 	c3 = iota //2
-	c4 //3
+	c4        //3
 )
 
 //多个常量声明在一行
@@ -50,14 +50,15 @@ const (
 
 //定义数量级
 const (
-	_ = iota
+	_  = iota
 	KB = 1 << (10 * iota)
 	MB = 1 << (10 * iota)
 	GB = 1 << (10 * iota)
 	TB = 1 << (10 * iota)
 	PB = 1 << (10 * iota)
 )
-func main()  {
+
+func main() {
 	fmt.Println("n1:", n1)
 	fmt.Println("n2:", n2)
 	fmt.Println("n3:", n3)

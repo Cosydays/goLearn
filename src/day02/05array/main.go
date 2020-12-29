@@ -27,7 +27,7 @@ func main() {
 	fmt.Println(a3)
 
 	//数组的遍历
-	citys := [...]string{"beijing", "shanghai", "shenzhen"}//索引：0~2 citys[0],citys[1],citys[2]
+	citys := [...]string{"beijing", "shanghai", "shenzhen"} //索引：0~2 citys[0],citys[1],citys[2]
 	//1.根据索引遍历
 	for i := 0; i < len(citys); i++ {
 		fmt.Println(citys[i])
@@ -39,7 +39,7 @@ func main() {
 
 	//多维数组
 	//[[1 2] [3 4] [5 6]]
-	var a11[3][2]int
+	var a11 [3][2]int
 	a11 = [3][2]int{
 		[2]int{1, 2},
 		[2]int{3, 4},
@@ -48,8 +48,8 @@ func main() {
 	fmt.Println(a11)
 
 	//多维数组的遍历1
-	for _, v1 := range a11{
-		for _, v2 := range v1{
+	for _, v1 := range a11 {
+		for _, v2 := range v1 {
 			fmt.Println(v2)
 		}
 	}

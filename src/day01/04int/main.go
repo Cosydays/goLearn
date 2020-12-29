@@ -43,4 +43,3 @@ func main() {
 	i4 := int8(9) //明确指定int8类型，否则就是默认为int类型
 	fmt.Printf("%T\n", i4)
 }
-

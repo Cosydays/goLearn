@@ -15,8 +15,8 @@ func main() {
 	fmt.Println("所有元素的和为：", sum)
 	//题2
 	for i := 0; i < len(arr1); i++ {
-		for j := i + 1; j < len(arr1); j++{
-			if arr1[i] + arr1[j] == 8 {
+		for j := i + 1; j < len(arr1); j++ {
+			if arr1[i]+arr1[j] == 8 {
 				fmt.Printf("(%d, %d)\n", i, j)
 			}
 		}

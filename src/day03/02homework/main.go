@@ -22,7 +22,7 @@ func main() {
 	s2 := "how do you do"
 	s3 := strings.Split(s2, " ")
 	m1 := make(map[string]int, 10)
-	for _, w := range(s3) {
+	for _, w := range s3 {
 		fmt.Println(w)
 		if _, ok := m1[w]; !ok {
 			m1[w] = 1
@@ -30,15 +30,15 @@ func main() {
 			m1[w]++
 		}
 	}
-	for key, value := range(m1) {
+	for key, value := range m1 {
 		fmt.Println(key, value)
 	}
 
 	//3.回文判断
 	//字符串从左往右读和从右往左读是一样的，那就是回文
 	s4 := "aba"
-	for i := 0; i < len(s4) / 2; i++{
-		if s4[i] != s4[len(s4) - i -1] {
+	for i := 0; i < len(s4)/2; i++ {
+		if s4[i] != s4[len(s4)-i-1] {
 			fmt.Println("不是回文！")
 		}
 	}

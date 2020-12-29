@@ -21,7 +21,7 @@ func main() {
 
 	//切片的遍历
 	//1.索引遍历
-	for i := 0; i < len(s3); i++{
+	for i := 0; i < len(s3); i++ {
 		fmt.Println(s3[i])
 	}
 	//2.for range循环

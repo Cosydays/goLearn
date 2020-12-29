@@ -62,4 +62,3 @@ func main() {
 	fmt.Println(f5()) // 5
 	fmt.Println(f6()) // 6
 }
-

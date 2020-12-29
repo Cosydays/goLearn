@@ -4,7 +4,7 @@ import "fmt"
 
 //切片slice
 
-func main () {
+func main() {
 	//1.切片的定义
 	var s1 []int    //定义一个存放int类型元素的切片
 	var s2 []string //定义一个存放string类型元素的切片

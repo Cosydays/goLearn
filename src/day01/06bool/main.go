@@ -9,4 +9,3 @@ func main() {
 	fmt.Printf("%T\n", b1)
 	fmt.Printf("%T value:%v", b2, b2)
 }
-

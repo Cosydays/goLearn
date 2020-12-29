@@ -32,7 +32,7 @@ func f5(title string, y ...int) int {
 //命名返回值
 func f6(x, y int) (sum int) {
 	sum = x + y //如果使用命名的返回值，那么在函数中可以直接使用返回值变量
-	return  //如果使用命名的返回值，return后面可以省略返回值变量
+	return      //如果使用命名的返回值，return后面可以省略返回值变量
 }
 
 //Go语言中支持多个返回值

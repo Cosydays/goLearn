@@ -25,6 +25,7 @@ func f4(x, y int) int {
 func ff(a, b int) int {
 	return a + b
 }
+
 //函数还可以作为返回值
 func f5(x func() int) func(int, int) int {
 	return ff

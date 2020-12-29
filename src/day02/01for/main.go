@@ -4,7 +4,7 @@ import "fmt"
 
 //流程控制之跳出for循环
 
-func main () {
+func main() {
 
 	//当i=5时就跳出for循环
 	for i := 0; i < 10; i++ {

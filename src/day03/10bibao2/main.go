@@ -15,7 +15,7 @@ import (
 //2.函数内部查找变量的顺序，先在自己内部找，找不到往外层找
 func adder1() func(int) int {
 	var x = 100
-	return  func(y int) int {
+	return func(y int) int {
 		x += y
 		return x
 	}
@@ -33,4 +33,3 @@ func main() {
 	ret2 := ret(200)
 	fmt.Println(ret2)
 }
-

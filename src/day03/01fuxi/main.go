@@ -104,7 +104,7 @@ func main() {
 
 	//map
 	var m1 map[string]int
-	fmt.Println(m1  == nil) //true
+	fmt.Println(m1 == nil) //true
 	m1 = make(map[string]int, 10)
 	m1["caijiahui"] = 24
 	fmt.Println(m1)
@@ -117,7 +117,7 @@ func main() {
 	}
 	delete(m1, "jiahui") //删除的key不存在就什么都不干
 	delete(m1, "caijiahui")
-	fmt.Println(m1) //map[]
+	fmt.Println(m1)        //map[]
 	fmt.Println(m1 == nil) //false，已经开辟了内存
 
 }

@@ -17,7 +17,6 @@ func f2() {
 	fmt.Println("f2")
 }
 
-
 func main() {
 	f1()
 	f2()

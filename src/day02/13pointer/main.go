@@ -22,9 +22,8 @@ func main() {
 	var a1 *int
 	fmt.Println(a1)
 	var a2 = new(int)
-	fmt.Println(a2) //地址
+	fmt.Println(a2)  //地址
 	fmt.Println(*a2) //0
 	*a2 = 100
 	fmt.Println(*a2) //100
 }
-

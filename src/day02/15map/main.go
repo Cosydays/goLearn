@@ -12,7 +12,7 @@ func main() {
 	var scoreMap = make(map[string]int, 200)
 	for i := 0; i < 100; i++ {
 		key := fmt.Sprintf("stu%02d", i) //生成stu开头的字符串
-		value := rand.Intn(100)              //生成0-99的随机数
+		value := rand.Intn(100)          //生成0-99的随机数
 		scoreMap[key] = value
 	}
 	//取出map中的所有key存入切片keys

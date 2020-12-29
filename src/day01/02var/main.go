@@ -17,7 +17,6 @@ import (
 //匿名变量（哑元变量）
 //当有些数据必须用变量接受但是又不使用它时，就可以用_来接收这个值
 
-
 //批量声明
 var (
 	name string
@@ -31,10 +30,10 @@ func main() {
 	isOk = true
 	// Go语言中非全局变量声明必须使用，不使用就编译不过去
 	// var nouse string
-	fmt.Print(isOk)                    // 在终端中输出要打印的内容
+	fmt.Print(isOk) // 在终端中输出要打印的内容
 	fmt.Println()
 	fmt.Printf("name:%s\n", name) // %s：占位符，使用name这个变量的值去替换占位符
-	fmt.Println(age)                   // 打印完指定的内容之后会在后面自动加一个换行符
+	fmt.Println(age)              // 打印完指定的内容之后会在后面自动加一个换行符
 	//nouse = "caspar"
 	var s1 string = "caijiahui"
 	fmt.Println(s1)

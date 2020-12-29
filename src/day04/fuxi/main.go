@@ -28,7 +28,7 @@ func bi(f func(string), name string) func() {
 }
 
 func main() {
-	demo1(demo0,"caijiahui")
+	demo1(demo0, "caijiahui")
 	ret := demo2()
 	fmt.Printf("%T\n", ret)
 	sum := ret(10, 20)

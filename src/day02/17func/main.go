@@ -38,7 +38,7 @@ func f4(x int, y int) (ret int) {
 }
 
 //多个返回值
-func f5() (int, string){
+func f5() (int, string) {
 	return 1, "abc"
 }
 
