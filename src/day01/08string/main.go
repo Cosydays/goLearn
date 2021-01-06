@@ -18,7 +18,7 @@ import (
 //go语言中字符串都是UTF8编码，UTF8编码中一个常用汉字一般占用3个字节
 
 func main() {
-	path := "\"C:\\Users\\Cosydays\\go\\src\\github.com\\day01\\08string\\main.go\""
+	path := "\"C:\\Users\\Cosydays\\go\\src\\github.com\\day01\\08string\\xxx.go\""
 	fmt.Printf("%v\n", path)
 	s := "I'm ok"
 	fmt.Println(s)
