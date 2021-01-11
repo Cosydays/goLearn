@@ -9,6 +9,7 @@ import (
 )
 
 //打开文件1.
+//fileObj.Read()
 func readFromFile1() {
 	fileObj, err := os.Open("C:/Users/Cosydays/Desktop/goLearn/src/day05/12file_open/main.go")
 	if err != nil {
@@ -64,6 +65,7 @@ func readFromFileByBufio() {
 }
 
 //打开文件3.
+//ioutil.ReadFile()
 func readFromFileByIoutil() {
 	ret, err := ioutil.ReadFile("C:/Users/Cosydays/Desktop/goLearn/src/day05/12file_open/main.go")
 	if err != nil {

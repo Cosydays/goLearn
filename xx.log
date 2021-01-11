@@ -1,0 +1,4 @@
+2021/01/10 15:43:43.375567 C:/Users/Cosydays/Desktop/goLearn/src/day06/main.go:19: 这是一条很普通的日志。
+[小王子]2021/01/10 15:43:43.384543 C:/Users/Cosydays/Desktop/goLearn/src/day06/main.go:22: 这是一条很普通的日志
+2021/01/10 15:54:41.817868 C:/Users/Cosydays/Desktop/goLearn/src/day06/07标准库log/main.go:19: 这是一条很普通的日志。
+[小王子]2021/01/10 15:54:41.826845 C:/Users/Cosydays/Desktop/goLearn/src/day06/07标准库log/main.go:22: 这是一条很普通的日志
